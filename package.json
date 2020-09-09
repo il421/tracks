@@ -5,19 +5,38 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "ngrok": "ngrok http 3001"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "axios": "^0.20.0",
     "expo": "~38.0.8",
+    "expo-location": "~8.2.1",
     "expo-status-bar": "^1.0.2",
+    "ngrok": "^3.2.7",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
-    "react-native-web": "~0.11.7"
+    "react-native-elements": "^2.2.1",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-maps": "0.27.1",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^4.4.0",
+    "react-navigation-stack": "^2.8.2",
+    "react-navigation-tabs": "^2.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0"
+    "@types/axios": "^0.14.0",
+    "@types/react-native": "^0.63.10",
+    "@types/react-native-elements": "^0.18.0",
+    "@types/react-navigation": "^3.4.0",
+    "babel-preset-expo": "~8.1.0",
+    "prettier": "^2.1.1"
   },
   "private": true
 }
